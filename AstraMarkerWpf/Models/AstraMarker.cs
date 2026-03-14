@@ -61,7 +61,7 @@ namespace AstraMarkerWpf.Models
         }
         public override hresult PlaceObject(PlaceFlags lInsertType)
         {
-            InputJig jig = new InputJig();
+            InputJig jig = new();
             if (!jig.GetRealNumber("Введите радиус", out double radius) || radius < 0)
             {
                 return hresult.e_Fail;
