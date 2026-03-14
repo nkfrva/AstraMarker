@@ -1,0 +1,38 @@
+## Модули, сборки и временные файлы
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.userosscache
+*.sln.docstates
+
+## Пользовательские настройки Visual Studio
+.vs/
+*.suo
+
+## Пользовательские настройки JetBrains Rider
+.idea/
+*.iws
+
+## Другие IDE и инструменты
+.vscode/
+*.booproj
+
+## Сборки и кэш
+*.dll
+*.exe
+*.pdb
+*.cache
+*.deps.json
+*.runtimeconfig.json
+
+## Результаты тестов
+TestResults/
+
+## Документация
+_site/
+
+## Скрытые файлы ОС
+.DS_Store
+Thumbs.db
