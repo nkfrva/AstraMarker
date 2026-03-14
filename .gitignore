@@ -20,7 +20,6 @@
 *.booproj
 
 ## Сборки и кэш
-*.dll
 *.exe
 *.pdb
 *.cache
